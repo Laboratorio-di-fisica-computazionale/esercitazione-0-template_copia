@@ -26,9 +26,9 @@ Esito dopo la modifica e spiegazione della correzione: stampa (c'è printf)
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché: hello.c in quanto sorgente, osservazioni.md in quanto richiesto, 
+Quali file ho incluso nel commit e perché: hello.c in quanto sorgente, osservazioni.md in quanto richiesto, output.txt per provare add, commit, push.
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: ho controllato e aperto il repository online, aggiornando la pagina.
 
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
 
