@@ -2,9 +2,9 @@
 
 Gruppo:
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (Andrea, Giustiniani e giustiniani2260468-ai, palatucci2257570):
 
-URL del repository condiviso:
+URL del repository condiviso: 
 
 Chi ha usato la tastiera nello step 1 e nello step 2:
 
@@ -13,15 +13,16 @@ saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
 
-Che cosa ho capito su sorgente ed eseguibile:
+Comando di esecuzione e risultato osservato:./hello
 
-Output richiesto e comportamento del programma prima della modifica:
+Che cosa ho capito su sorgente ed eseguibile: la sorgente è il codice in C (ovvero hello.c) l'eseguibile è invece hello cioè il sorgente dopo averlo compilato
 
-Esito dopo la modifica e spiegazione della correzione:
+Output richiesto e comportamento del programma prima della modifica: non stampa (non c'è printf)
+
+Esito dopo la modifica e spiegazione della correzione: stampa (c'è printf)
 
 ## Step 1 — Git
 
