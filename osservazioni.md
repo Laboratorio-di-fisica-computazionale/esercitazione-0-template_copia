@@ -26,7 +26,7 @@ Esito dopo la modifica e spiegazione della correzione: stampa (c'è printf)
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: hello.c in quanto sorgente, osservazioni.md in quanto richiesto, 
 
 Come ho verificato che la versione provata sia presente su GitHub:
 
