@@ -30,7 +30,7 @@ Quali file ho incluso nel commit e perché: hello.c in quanto sorgente, osservaz
 
 Come ho verificato che la versione provata sia presente su GitHub: ho controllato e aperto il repository online, aggiornando la pagina.
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: prima di 'git pull' osservazioni.md non è cambiato localmente, dopo git pull è invece cambiato. Non serve un nuovo clone 
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: prima di 'git pull' osservazioni.md non è cambiato localmente, dopo git pull è invece cambiato. Non serve nuovamente clone, in quanto la repository in locale è già scaricata. 'git pull ' dunque aggiorna la copia in locale. 
 
 ## Step 2 — Eco: prima prova
 
