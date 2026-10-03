@@ -20,7 +20,7 @@ Comando di esecuzione e risultato osservato:./hello
 
 Che cosa ho capito su sorgente ed eseguibile: la sorgente è il codice in C (ovvero hello.c) l'eseguibile è invece hello cioè il sorgente dopo averlo compilato
 
-Output richiesto e comportamento del programma prima della modifica: non stampa (non c'è printf)
+Output richiesto e comportamento del programma prima della modifica: non stampa (non c'è printf), tuttavia la compilazione avviene con successo. 
 
 Esito dopo la modifica e spiegazione della correzione: stampa (c'è printf)
 
