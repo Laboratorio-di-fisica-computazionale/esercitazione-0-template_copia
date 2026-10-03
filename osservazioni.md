@@ -4,7 +4,7 @@ Gruppo:
 
 Componenti (Andrea, Giustiniani e giustiniani2260468-ai, palatucci2257570):
 
-URL del repository condiviso: 
+URL del repository condiviso: https://github.com/giustiniani2260468-ai/esercitazione-0-template.git
 
 Chi ha usato la tastiera nello step 1 e nello step 2:
 
