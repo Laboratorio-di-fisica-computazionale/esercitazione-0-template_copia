@@ -53,7 +53,7 @@ Argomenti passati, comando e risultato:
   double reale = leggi_reale(argv[3]);
   printf("%s %d %.6f\n", testo, intero, reale);
 
-Che cosa ho capito su testo, conversioni e stampa: 
+Che cosa ho capito su testo, conversioni e stampa: gli elementi di argv non sono già numeri: sono stringhe di caratteri, passando 0012 come primo argomento esso rimarrà char *, come secondo e terzo assumerà il valore di intero (12) o double (12.000000). Si può passare un testo che contiene spazi come unico argomento usando "...". Se si scrive 1.25e1 come terzo argomento esso verrà stampato come richiesto, ovvero 12.500000, la rappresentazione usata e l'output del programma non sono dipendenti. In eco2.c, come osservabile nel codice nelle funzioni fornite, il programma risponde attraverso printf come "Il secondo argomento deve essere un intero in base 10", oppure "Il secondo argomento ha un valore fuori intervallo...", restituendo exit(2). 
 
 ## Step 2 — Risultato ed errori
 
