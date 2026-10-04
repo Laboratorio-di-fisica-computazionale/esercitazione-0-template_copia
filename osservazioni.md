@@ -43,7 +43,7 @@ Argomenti passati, comando e risultato:
 
     il risultato è la stampa di una terna (testo, intero (attraverso atoi), reale (attraverso atof)) dipendente dalle stringhe di caratteri inserite dopo ./eco
 
-Che cosa posso concludere: l'utilizzo di atoi e atof consente in maniera rapida di estrarre da stringhe rispettivamente interi e double, ma restituisce semplicemente 0 nel caso in cui non vi siano interi e double da estrarre. Le funzioni nella seconda prova di eco sono invece più dettagliate. 
+Che cosa posso concludere: l'utilizzo di atoi e atof consente in maniera rapida di estrarre da stringhe rispettivamente interi e double, ma restituisce semplicemente 0 nel caso in cui non vi siano interi e double da estrarre. Le funzioni nella seconda prova di eco sono invece più dettagliate. Se si inseriscono più o meno di 4 argomenti, il programma ricorda cosa va inserito attraverso printf. 
 
 ## Step 2 — Eco: seconda prova
 
@@ -65,7 +65,7 @@ Come un controllo automatico può riconoscere un errore: ??????
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti: 
+Quando serve ricompilare e quando basta cambiare gli argomenti: nel caso in cui sia necessario cambiare parametro, non occorre ricompliare: basterà sfruttare gli argomenti della funzione main e delle funzioni fornite (oppure di quelle suggerite atof e atoi). Modificare una formula (e dunque non i valori da immetterci) richiederà invece di dover ricompilare il file.c. Si può pensare che, dove avremmo un tempo messo scanf, adesso non è più necessario ricompilare, mentre negli altri casi rimane cosa da fare. 
 
 ## Step 2 — Git
 
