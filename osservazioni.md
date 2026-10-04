@@ -35,20 +35,25 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 ## Step 2 — Eco: prima prova
 
 Argomenti passati, comando e risultato: 
-
-  char *testo = argv[1];
+    char *testo = argv[1];
     int intero = atoi(argv[2]);
     double reale = atof(argv[3]);
 
     printf("%s %d %.6f\n", testo, intero, reale);
 
-Che cosa posso concludere:
+    il risultato è la stampa di una terna (testo, intero (attraverso atoi), reale (attraverso atof)) dipendente dalle stringhe di caratteri inserite dopo ./eco
+
+Che cosa posso concludere: l'utilizzo di atoi e atof consente in maniera rapida di estrarre da stringhe rispettivamente interi e double, ma restituisce semplicemente 0 nel caso in cui non vi siano interi e double da estrarre. Le funzioni nella seconda prova di eco sono invece più dettagliate. 
 
 ## Step 2 — Eco: seconda prova
 
 Argomenti passati, comando e risultato:
+  char *testo = argv[1];
+  int intero = leggi_intero(argv[2]);
+  double reale = leggi_reale(argv[3]);
+  printf("%s %d %.6f\n", testo, intero, reale);
 
-Che cosa ho capito su testo, conversioni e stampa:
+Che cosa ho capito su testo, conversioni e stampa: 
 
 ## Step 2 — Risultato ed errori
 
