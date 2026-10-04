@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 
     char *testo = argv[1];
     int intero = atoi(argv[2]);
-    int reale = atof(argv[3]);
+    double reale = atof(argv[3]);
 
     printf("%s, %d, %f", testo, intero, reale);
 
