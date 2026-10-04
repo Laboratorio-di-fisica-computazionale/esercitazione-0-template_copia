@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     int intero = atoi(argv[2]);
     double reale = atof(argv[3]);
 
-    printf("%s, %d, %.5f\n", testo, intero, reale);
+    printf("%s, %d, %.6f\n", testo, intero, reale);
 
     /* TODO: converti gli argomenti in tipi appropriati. Usa atoi o atof
     * prendi ispirazione da:
