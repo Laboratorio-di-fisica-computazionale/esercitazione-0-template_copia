@@ -2,11 +2,11 @@
 
 Gruppo:
 
-Componenti (Andrea, Giustiniani e giustiniani2260468-ai, palatucci2257570):
+Componenti (Andrea Giustiniani, Carlo Palatucci, giustiniani2260468-ai, palatucci2257570):
 
 URL del repository condiviso: https://github.com/giustiniani2260468-ai/esercitazione-0-template.git
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: Andrea ha usato la tastiera nello step 1, Carlo nello step 2. 
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
@@ -57,15 +57,15 @@ Che cosa ho capito su testo, conversioni e stampa: gli elementi di argv non sono
 
 ## Step 2 — Risultato ed errori
 
-Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`:
+Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: nel primo caso eco.txt è non vuoto e contiene l'output richiesto, inoltre, il return di main è 0. Nel secondo caso è vuoto e il valore di main è 2. 
 
-Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati:
+Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati: la previsione è corretta. 
 
-Come un controllo automatico può riconoscere un errore:
+Come un controllo automatico può riconoscere un errore: ??????
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti:
+Quando serve ricompilare e quando basta cambiare gli argomenti: 
 
 ## Step 2 — Git
 
